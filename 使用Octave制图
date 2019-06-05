@@ -1,0 +1,7 @@
+逻辑回归曲线
+ 
+pos = find(y==1); neg = find(y == 0);  %根据(y=1)或者(y=0)将数据分为两类
+ 
+plot(X(pos, 1), X(pos, 2), 'k+','LineWidth', 2, ... 'MarkerSize', 7); 
+plot(X(neg, 1), X(neg, 2), 'ko', 'MarkerFaceColor', 'y', ... 'MarkerSize', 7);
+
